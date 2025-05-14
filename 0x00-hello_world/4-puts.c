@@ -1,13 +1,11 @@
-#include <stdio.h>
+include < stdio.h >
 /**
-* the main function :  A program that prints a line with puts function
-*
-* Return : 0 (success)
-*
-*/
+ * main - A function that prints a line using the puts function
+ *
+ * return (0) = success
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
-
