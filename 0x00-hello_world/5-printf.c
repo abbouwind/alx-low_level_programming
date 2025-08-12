@@ -1,9 +1,12 @@
 #include <stdio.h>
-/*
- * funtion main prints the following string
- *  "with proper grammar, but the outcome is a piece of art,"
- * followed by a new line using \n escape character
- * as printf function requires it to add a new line
+ /**
+ * main - Entry point
+ *
+ * Description: Prints the message "with proper grammar, but the outcome
+ * is a piece of art,
+ * " starting with a double quote and ending
+ * with a new line, using printf.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
