@@ -15,7 +15,7 @@ int main(void)
 	/* your code goes there */
       while (m >= 10)
       {
-            m == n % 10;
+            m = n % 10;
       }
       if ( m < 6 && m != 0)
       {
