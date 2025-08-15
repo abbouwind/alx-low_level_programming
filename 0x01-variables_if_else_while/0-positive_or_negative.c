@@ -3,14 +3,9 @@
 #include <stdio.h>
 
 /**
- *main description : a function that takes a random
- *int stored in a variable called n and test if the
- *is positive, negative or simply zero
- *if statement : tests if n is lower than 0
- *if its true the program outputs n is negative
- *otherwise if n = 0 the program outputs n is zero
- *otherwise the program outputs n is positive
- *return (0) = success
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
