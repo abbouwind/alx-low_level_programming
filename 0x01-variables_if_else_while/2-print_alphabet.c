@@ -8,13 +8,14 @@
 int main(void)
 {
 	int low = 97;
-	while ( low <= 122 )
+
+	while (low <= 122)
 	{
-		putchar( low );
+		putchar(low);
 		low += 1;
 	}
-      
+
 	putchar('\n');
-      
+
 	return (0);
 }
