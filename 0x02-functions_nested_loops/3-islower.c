@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
  * _islower - a function that tests if the data stored in the parameter
@@ -9,7 +8,7 @@
 
 int _islower(int f)
 {
-	if (islower(f))
+	if (f >= 'a' && f <= 'z')
 	{
 		return (1);
 	}
