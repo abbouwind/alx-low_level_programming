@@ -2,9 +2,9 @@
 
 /**
  * _abs - prints the absolute value of a number
- * @i: the number to check
+ * @a: the number to check
  * Return: absolute value of the number is
- * */
+ */
 
 int _abs(int a)
 {
@@ -12,7 +12,7 @@ int _abs(int a)
 	{
 		return (a);
 	}
-	else 
+	else
 	{
 		return (-a);
 	}
