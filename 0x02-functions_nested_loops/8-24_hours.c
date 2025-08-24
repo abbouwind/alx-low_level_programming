@@ -9,19 +9,10 @@
 void jack_bauer(void)
 {
 	int a, b, c, d;
-	int max_b;
 
 	for (a = 0; a <= 2; a++)
 	{
-		if (a < 2)
-		{
-			max_b = 9;
-		}
-		else
-		{
-			max_b = 3;
-		}
-		for (b = 0; b <= 9; b++)
+		for (b = 0; b <= (a < 2 ? 9:3); b++)
 		{
 			for (c = 0; c <= 5; c++)
 			{
@@ -37,5 +28,4 @@ void jack_bauer(void)
 			}
 		}
 	}
-	return (0);
 }
