@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10 - a fucntion that prints the alphabet
- * from a to z followed by a new line  10 times using a nested 
+ * from a to z followed by a new line  10 times using a nested
  * loop and the _putchar function
  */
 
