@@ -9,32 +9,30 @@
 void jack_bauer(void)
 {
 	int a, b, c, d;
+	int max_b;
 
 	for (a = 0; a <= 2; a++)
 	{
 		if (a < 2)
 		{
-			for (b = 0; b <= 9; b++)
-			{
-				for (c = 0; c <= 5; c++)
-				{
-					for (d = 0; d <= 9; d++)
-					{
-						printf("%d%d:%d%d\n", a, b, c, d);
-					}
-				}
-			}
+			max_b = 9;
 		}
-		if (a == 2)
+		else
 		{
-			for (b = 0; b <= 3; b++)
+			max_b = 3;
+		}
+		for (b = 0; b <= 9; b++)
+		{
+			for (c = 0; c <= 5; c++)
 			{
-				for (c = 0; c <= 5; c++)
+				for (d = 0; d <= 9; d++)
 				{
-					for (d = 0; d <= 9; d++)
-					{
-						printf("%d%d:%d%d\n", a, b, c, d);
-					}
+					_putchar(a + '0');
+					_putchar(b + '0');
+					_putchar(':');
+					_putchar(c + '0');
+					_putchar(d + '0');
+					_putchar('\n');
 				}
 			}
 		}
