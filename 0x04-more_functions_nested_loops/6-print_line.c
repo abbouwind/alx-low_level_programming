@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ *print_line - a function that draws a
+ *straight line in the terminal.
+ *@n: the number that determins
+ *the lenght of the line
+ */
+
+void print_line(int n)
+{
+	int a = n;
+
+	while (n > 0)
+	{
+		_putchar('_');
+		n--;
+	}
+	_putchar('\n');
+}
