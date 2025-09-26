@@ -32,7 +32,7 @@ int main(void)
 		{
 			printf("%d", i);
 		}
-		printf(" ");
+		putchar(' ');
 	}
 	printf("\n");
 	return (0);
